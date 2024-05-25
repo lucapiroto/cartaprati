@@ -48,6 +48,7 @@ btnSim.addEventListener('click', () => {
     divMsg.appendChild(newMsg4);
     divMsg.appendChild(newMsg5);
     divMsg.appendChild(newMsg6);
+    divMsg.appendChild(newMsg7);
     divMsg.appendChild(newIFrame);
 });
 
