@@ -1,0 +1,56 @@
+
+.passOut {
+    display: hidden;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+.hiddenObject {
+    display: hidden;
+    display: none;
+}
+
+.btnNao1 {
+    position: relative;
+    left: 20%;
+}
+
+.btnNao2 {
+    position: relative;
+    left: 30%;
+}
+
+#buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap:20px;
+}
+
+button {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    background-color: rgb(142, 24, 24);
+    border-radius: 15px;
+    font-size: 30px
+}
+
+#enter-button {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(142, 24, 24);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold
+};
